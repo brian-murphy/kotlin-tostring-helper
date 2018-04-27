@@ -11,7 +11,7 @@ open class TupleTestClass {
     private var testVar = "my test variable"
 
     override fun toString(): String {
-        return  toTupleString(this)
+        return toTupleString(this)
     }
 }
 
@@ -24,7 +24,7 @@ class JsonTestClass {
     @ToString
     private var testVar = "my test variable"
 
-    override fun toString(): String  = toJsonString(this)
+    override fun toString(): String = toJsonString(this)
 }
 
 fun main(args: Array<String>) {

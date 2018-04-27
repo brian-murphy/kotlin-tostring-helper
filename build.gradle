@@ -1,8 +1,8 @@
 group 'com.brainmurphy'
-version '1.0-SNAPSHOT'
+version '0.0.1'
 
 buildscript {
-    ext.kotlin_version = '1.2.31'
+    ext.kotlin_version = '1.2.40'
 
     repositories {
         mavenCentral()
